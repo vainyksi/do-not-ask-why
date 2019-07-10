@@ -33,3 +33,7 @@ Do not install Ubuntu default package (virtualbox 5.2), install latest one from 
 5. Next step is [signing vboxdrv kernel module](https://stegard.net/2016/10/virtualbox-secure-boot-ubuntu-fail/) for EFI secure boot.
 https://askubuntu.com/questions/1002096/uefi-secure-boot-unable-to-sign-virtualbox-kernel-modules-sign-key-does-noth
 
+6. 
+```
+sudo modprobe vboxnetadp
+```
